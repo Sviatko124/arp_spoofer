@@ -9,3 +9,5 @@ However, you also have an option to completely block the victim's internet acces
 echo 0 > /proc/sys/net/ipv4/ip_forward
 
 Both options have their advantages, but for a man in the middle attack you will want to do the first option. Again, this tool will only fool the router and the target computer to make their communication go through your computer first, but this tool doesn't actually read the traffic. For that, you will want to use this tool and the packet sniffer that I will be writing in the near future, so stay tuned for that. 
+
+IMPORTANT! This tool is only for educational purposes only and is to be used with consent. Misuse of this tool can get you into serious trouble and I do not encourage illegal shenanigans. Thank you. 
